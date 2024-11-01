@@ -1,0 +1,154 @@
+.sdapp .tablenav.top{
+	clear: none;
+	float: left;
+}
+.sdapp .tablenav.top label{
+	float: left;
+	padding-top: 5px;
+	margin: 0 5px 0 0;
+}
+.sdapp .tablenav.top p.submit{
+	margin: 0;
+	padding: 0;
+}
+.sdapp #dashboard-widgets-wrap {
+	margin: 20px -8px;
+}
+.sdapp .postbox h3.hndle{
+	font-size: 18px;
+}
+.sdapp .customers-contain{
+	float: left;
+	width: 220px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.sdapp .customers-contain img{
+	float: left;
+	margin-right: 10px;
+}
+.sdapp .pagination {
+	padding: 3px;
+	margin: 10px 5px;
+	text-align:center;
+	font-family:Tahoma,Helvetica,sans-serif;
+	font-size:.85em;
+	float: right;
+}
+.sdapp #customers-form .pagination {
+	margin: 10px 0;
+}
+.sdapp .pagination a {
+	border: 1px solid #ddd;
+	margin-right:5px;
+	padding:5px 8px;
+	background-position:bottom;
+	text-decoration: none;
+	color: #0074a2;
+	background: #eee;
+	background: rgba(0,0,0,.05);
+}
+.sdapp .pagination a:hover, .sdapp .pagination a:active {
+	background-image:none;
+	background-color:#2ea2cc;
+	color: #fff;
+}
+.sdapp .pagination span.current {
+	margin-right:3px;
+	padding:2px 6px;
+	
+	font-weight: bold;
+	color: #000;
+}
+.sdapp .pagination span.disabled {
+	display:none;
+}
+.sdapp .pagination a.next{
+	margin:0 0 0 10px;
+}
+.sdapp .pagination a.prev{
+	margin:0 10px 0 0;
+}	
+.sdapp select#offset{
+	display: none;
+}
+.sdapp label[for="offset"] {
+	display:none;
+}
+@media screen and (max-width: 1652px){
+	.sdapp .customers-contain{
+		width: 19%;
+		margin: 0 1% 10px 0;
+	}
+}
+@media handheld, only screen and (max-width: 1290px){
+	.sdapp .tablenav.top{
+		margin-bottom: 20px; 
+	}
+	.sdapp .pagination{
+		clear: both;
+		float: none;
+	}
+	.sdapp #dashboard-widgets-wrap{
+		margin: 10px -8px;
+	}
+}
+@media screen and (max-width: 1343px){
+	.sdapp .customers-contain{
+		width: 24%;
+		margin: 0 1% 10px 0;
+	}
+}
+@media screen and (max-width: 1190px){
+	.sdapp .customers-contain{
+		width: 240;
+		margin: 0 1% 10px 0;
+	}
+}
+@media screen and (max-width: 1054px){
+	.sdapp .customers-contain{
+		width: 30%;
+		margin: 0 1% 10px 0;
+	}
+}
+@media screen and (max-width: 900px){
+	.sdapp .customers-contain{
+		width: 220px;
+		margin: 0 1% 10px 0;
+	}
+}
+@media screen and (max-width: 806px){
+	.sdapp .customers-contain{
+		width: 200px;
+		margin: 0 1% 10px 0;
+	}
+}
+@media screen and (max-width: 782px){
+	.tablenav.top .actions, .view-switch {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 690px){
+	.sdapp .customers-contain{
+		width: 45%;
+		margin: 0 3% 10px 0;
+	}
+}
+@media screen and (max-width: 500px){
+	.sdapp .customers-contain{
+		width: 40%;
+		margin: 0 2% 10px 0;
+	}
+}
+@media screen and (max-width: 485px){
+	.sdapp .customers-contain{
+		width: 100%;
+		margin: 0 1% 10px 0;
+	}
+}
